@@ -4,6 +4,7 @@ requirejs.config({
     jquery: 'bower_components/jquery/jquery',
     underscore: 'bower_components/underscore/underscore',
     bootstrap: 'bower_components/bootstrap/dist/js/bootstrap',
+	bootstrapCollapse: 'bower_components/bootstrap/js/collapse', //not really sure if necessary
     backbone: 'bower_components/backbone/backbone',
     alertify: 'bower_components/alertify/alertify',
     text: 'bower_components/text/text'
@@ -16,6 +17,10 @@ requirejs.config({
       deps: ['jquery'],
       exports: 'jQuery'
     },
+	bootstrapCollapse: {
+		deps: ['bootstrap'],
+		exports: 'bootstrapCollapse'
+	},
     backbone: {
       deps: ['jquery', 'underscore'],
       exports: 'Backbone'
@@ -29,6 +34,7 @@ define(function (require) {
   var $ = require('jquery');
   var alertify = require('alertify');
   var Backbone = require('backbone');
+  var Bootstrap = require('bootstrap');
   var Router = require('./Router');
 
   // __Private Module Members__

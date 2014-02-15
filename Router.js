@@ -1,5 +1,6 @@
 define(function (require) {
   var Backbone = require('backbone');
+  //var Bootstrap = require('bootstrap');
 
   var HomeView = require('views/Home');
   var AppView = require('views/App');

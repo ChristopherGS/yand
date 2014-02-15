@@ -3,3 +3,31 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+body {
+	height: 600px;
+	margin: 0;
+
+}   
+   
+.sitebg{
+	display: table;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 100%;
+
+}   
+
+.wrapper {
+	width: 100%;
+	max-width: 71.25em;
+	margin: 0 auto;
+	background-color: #fff;
+	opacity: 0.8;
+}
+
+h1#headline{
+	font-family: "verdanda", verdana, serif;
+	font-size: 3em;
+}
