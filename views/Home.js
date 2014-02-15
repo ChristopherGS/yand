@@ -6,7 +6,7 @@ define(function (require) {
   var Backbone = require('backbone');
   var alertify = require('alertify');
   var bootstrap = require('bootstrap');
-  //var bootstrapCollapse = require('bootstrapCollapse');
+  var bootstrapCollapse = require('bootstrapCollapse');
   var template = require('text!templates/home.html');
 
   var View = Backbone.View.extend({

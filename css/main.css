@@ -11,7 +11,7 @@ body {
    
 .sitebg{
 	display: table;
-	background-image: url(../img/bg.jpg);
+	background-image: url(../img/bg2.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -23,11 +23,50 @@ body {
 	width: 100%;
 	max-width: 71.25em;
 	margin: 0 auto;
+	padding: 0;
 	background-color: #fff;
 	opacity: 0.8;
 }
 
-h1#headline{
-	font-family: "verdanda", verdana, serif;
-	font-size: 3em;
+#main {
+	background-color: black;
+	opacity: 0.5;
+
 }
+
+h1#headline{
+	font-family: "helvetica", helvetica, serif;
+	font-size: 2em;
+	color: #fff;
+}
+
+#yd {
+	font-weight: bold;
+	font-color: #000;
+}
+
+#subHeadline {
+	font-family: "garamond", garamond, sans-serif;
+	color: #ffe
+}
+
+#companyLogo {
+	color: #fff;
+}
+
+#menu-primary #primaryItems li a {
+	color: #fff;
+	background-color: #000;
+	opacity: 0.5;
+
+}
+
+#menu-primary #primaryItems li {
+	border: 1px solid black;
+}
+
+#menu-primary #primaryItems ul{
+	padding-right: 1%;
+}
+	
+	
