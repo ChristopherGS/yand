@@ -1,0 +1,20 @@
+{
+  "name": "site",
+  "version": "0.0.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.0",
+    "jquery": "~2.0.3",
+    "backbone.localStorage": "~1.1.7",
+    "requirejs": "~2.1.10",
+    "bootstrap": "~3.0.3",
+    "alertify": "~0.3.10",
+    "text": "~2.0.10",
+    "underscore": "~1.5.2",
+	"font-awesome": "~4.0.3"
+  }
+}
